@@ -1,3 +1,5 @@
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -606,17 +608,144 @@ code:before,
 code:after,
 tt:before,
 tt:after {
-  letter-spacing: -0.2em;
-  content: " ";
-}
-pre code:before,
-pre code:after,
-pre tt:before,
-pre tt:after {
-  content: "";
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
+    letter-spacing: -0.2em;
+    content: " ";
   }
+  pre code:before,
+  pre code:after,
+  pre tt:before,
+  pre tt:after {
+    content: "";
+  }
+
+
+.splashWrap{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:black;
+  color:white;
 }
+.mainTextWrap{
+  text-align: center;
+}
+
+.mainTextWrap h1{
+  font-size: 15.5em;
+
+}
+
+.mainTextWrap p{
+
+letter-spacing: 20px;
+    font-size: 2em;
+}
+
+.drinkList {
+  display: flex;
+justify-content: space-between;
+background-color: black;
+list-style: none;
+margin:0px;
+}
+
+.drinkList li {
+width: 85%;
+text-align: center;
+
+}
+
+li a{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+}
+
+li img{
+  padding: 20px;
+  margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.drinkNameWrap{
+  display: flex;
+  height: 400px;
+position: relative;
+}
+
+.drinkNameWrap h1{
+  font-size: 10em;
+      text-align: right;
+      position: absolute;
+width: 55%;
+right: 20px;
+
+}
+
+.description{
+  align-items: center;
+position: absolute;
+width: 50%;
+text-align: right;
+right: 375px;
+bottom:0;
+
+}
+
+.buildWrap, .buildInfoWrap{
+  display: flex;
+}
+
+.buildWrap{
+  height: 400px;
+position: relative;
+}
+
+.buildInfoWrap{
+  position: absolute;
+right: 20px;
+bottom: 50px;
+display: flex;
+justify-content: space-around;
+width: 65%;
+}
+.stepList{
+    list-style-type: decimal;
+}
+h3{
+  letter-spacing: 5px;
+}
+
+.strip{
+  margin-left: -15px;
+height: 125px;
+width: 80%;
+position: absolute;
+top: 25%;
+}
+
+.strip2{
+  margin-right: -40px;
+  height: 65px;
+  width: 105%;
+  position: absolute;
+  top: -8%;
+  right: 0;
+  z-index: -9;
+
+}
+
+/* @media screen and (max-width: 1024px) {
+
+.buildWrap img{
+  width: 400px;
+}
+
+.drinkNameWrap h1{
+  font-size: 8em;
+}
+} */
