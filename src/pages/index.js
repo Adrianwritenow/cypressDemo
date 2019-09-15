@@ -36,12 +36,13 @@ query pageQuery{
       node{
         name
         slug
-       cocktailImage {
-         id
-         file {
-           url
-         }
-       }
+        isName1Word
+           cocktailImage {
+             id
+             file {
+               url
+             }
+           }
 
 
       }

@@ -26,7 +26,7 @@ class DrinkPost extends Component {
    }
 
    return(
-     <div className="mainWrapper container-fluid">
+     <div className="mainWrapper">
 
 
      <div className="drinkNameWrap">
