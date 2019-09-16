@@ -50,6 +50,7 @@ class DrinkPost extends Component {
              {steps.map((step, i)=> <li key={i}>{step}</li>)}
            </ul>
          </div>
+         <a href='/'><h3>BACK HOME</h3></a>
         </div>
      </div>
      </div>
